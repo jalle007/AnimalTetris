@@ -11,7 +11,7 @@ public class AndroidLauncher extends AndroidApplication {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 
-//		initialize(new MyGdxGame(), config);
+//		initialize(new MyGdxGame(), config); test
 		initialize(new Physics2() {
 			@Override
 			public void resize(int width, int height) {
